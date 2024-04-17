@@ -23,7 +23,7 @@ const WatchList = async () => {
     console.error("Error fetching Data");
   }
 
-  //console.log(watches);
+  console.log(watches);
   return (
     <div className="min-h-screen bg-gray-900 text-gray-300">
       <div className="container mx-auto p-6 sm:p-12">
