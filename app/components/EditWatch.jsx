@@ -3,7 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { updateWatch } from "../server-action/updateWatch";
 
-const EditWatch = (watch) => {
+const EditWatch = ({ watch }) => {
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({
     brand: watch.brand,
