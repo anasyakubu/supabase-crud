@@ -11,7 +11,7 @@ export default function AuthForm() {
       view="magic_link"
       showLinks={false}
       providers={[]}
-      redirectTo="/auth/callback"
+      redirectTo="https://supabase-crud.netlify.app/auth/callback"
       appearance={{
         theme: "dark",
         button: {
